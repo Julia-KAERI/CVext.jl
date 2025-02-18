@@ -1,0 +1,4 @@
+name = "CVext"
+uuid = "f7e0511d-4206-40e2-b6ef-df9736370ae4"
+authors = ["julia-KAERI <julia.kaeri@gmail.com>"]
+version = "0.1.0"
