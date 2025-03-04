@@ -1,8 +1,12 @@
 name = "CVext"
 uuid = "f7e0511d-4206-40e2-b6ef-df9736370ae4"
 authors = ["julia-KAERI <julia.kaeri@gmail.com>"]
-version = "0.2.0"
+version = "0.2.2"
 
 [deps]
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
 OpenCV = "f878e3a2-a245-4720-8660-60795d644f2a"
+Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
+
+[compat]
+Reexport = "1.2.2"

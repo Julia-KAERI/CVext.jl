@@ -1,5 +1,9 @@
+
 module CVext
     using OpenCV
+    using Reexport
+    @reexport using OpenCV
+
     using Distributions
     export arr2mat, img2arr, img2mat, mat2arr, histogram1d, gaussian_noise, salt_pepper_noise, Point, Size, ConvertTo, fftshift, ifftshift, fftfreq
 
